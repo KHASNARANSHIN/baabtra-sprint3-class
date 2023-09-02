@@ -1,0 +1,65 @@
+/* universel selector */
+*{
+    margin: 0;
+}
+
+p{
+    color: darkred;
+    background-color: darkgrey;
+    font-size: 16px;
+}
+
+/* contestual or descentent selector */
+p span{
+    color: coral;
+    background-color: aqua;
+    font-size: 16px;
+}
+
+/* child selector */
+ul > li{
+    color: blue;
+    font-size: 20px;
+}
+
+/* atrribute selector */
+#inp[type="text"]{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+/* groupin */
+h1,h2,h3,h4,h5{
+    color: deeppink;
+}
+
+/* 
+pseudo-element
+selector::pseudo-element(..........)
+*/
+#p2::first-line{
+    color: green;
+    background-color: rgb(181, 189, 184);
+    font-size: 32px;
+}
+
+/* 
+pseudo-class
+selector::pseudo-class(..........)
+*/ 
+#h1::first-letter{
+    color: darkcyan;
+    font-size: 50px;
+}
+
+#hover:hover{
+    color: coral;
+    background-color: cornsilk;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+#focus-input:focus{
+    border: 4px solid rebeccapurple;
+    background-color: rgb(252, 241, 241);
+}

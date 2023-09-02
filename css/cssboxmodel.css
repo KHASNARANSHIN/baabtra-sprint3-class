@@ -1,0 +1,33 @@
+h1{
+    border: 5px solid black;
+    padding: 50px;
+    margin: 25px;
+}
+
+p{
+    border: 3px solid rebeccapurple;
+    padding: 10px 50px;
+    margin: 10px 50px;
+}
+
+div{
+    width: 500px;
+    height: 200px;
+    background-color: crimson;
+    border: 4px dotted yellow;
+    padding: 5px 15px 20px 10px;
+    margin: 5px 10px 15px 20px;
+}
+
+ul{
+    background-color: darkred;
+    border: 5px solid green;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    /* padding-left: 15px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
