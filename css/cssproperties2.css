@@ -1,0 +1,29 @@
+#div{
+    width: fit-content;
+    height: fit-content;
+    background-color: brown;
+    border: 1px solid aqua;
+    padding: 10px;
+    visibility: hidden;
+}
+
+#div2{
+    width: fit-content;
+    height: fit-content;
+    background-color: brown;
+    border: 1px solid aqua;
+    padding: 10px;
+    display: none; 
+}
+
+#div3{
+    height: 500px;
+    width: 800px;
+    background-color: crimson;
+    border: 1px solid aqua;
+    opacity: .5;
+}
+
+#pa1{
+    
+}
