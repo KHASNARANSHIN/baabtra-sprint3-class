@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+#parent{
+    background-color: aqua;
+    padding: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
